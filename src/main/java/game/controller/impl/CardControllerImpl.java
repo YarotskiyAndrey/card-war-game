@@ -15,7 +15,7 @@ public class CardControllerImpl implements CardController {
     @Inject
     public CardService cardService;
 
-    @Override
+    @GET
     @Path("list")
     public List<CardDto> getAllCardList() {
 
