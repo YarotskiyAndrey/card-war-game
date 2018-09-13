@@ -25,7 +25,7 @@ public class GameApp {
 					break;
 				case "run":
 					new DeployDbConfig().deployDb();
-					startServer(false, 8080);
+					startServer(false, 9090);
 					break;
 			}
 		} else {
