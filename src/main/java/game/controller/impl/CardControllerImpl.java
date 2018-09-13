@@ -5,6 +5,7 @@ import game.dto.CardDto;
 import game.service.CardService;
 
 import javax.inject.Inject;
+import javax.ws.rs.GET;
 import javax.ws.rs.Path;
 import java.util.List;
 import java.util.logging.Level;
